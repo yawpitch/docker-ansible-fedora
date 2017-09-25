@@ -1,4 +1,4 @@
-FROM fedora:25
+FROM fedora:26
 LABEL maintainer="Michael Morehouse (yawpitch)"
 ENV container=docker
 
@@ -14,8 +14,7 @@ rm -f /lib/systemd/system/basic.target.wants/*;\
 rm -f /lib/systemd/system/anaconda.target.wants/*;
 
 # Install Ansible and other requirements.
-RUN dnf makecache fast \
- && dnf -y install \
+RUN dnf -y install \
       redhat-rpm-config \
       make \
       python-devel \
