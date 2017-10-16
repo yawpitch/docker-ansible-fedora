@@ -1,7 +1,7 @@
 # Fedora 26 Ansible Test Image
 
 [![Travis Automated build](https://travis-ci.org/yawpitch/docker-ansible-fedora.svg?branch=26)](https://travis-ci.org/yawpitch/docker-ansible-fedora/branches)
-[![Docker Automated build](https://img.shields.io/docker/automated/yawpitch/docker-ansible-fedora-26.svg?maxAge=2692000)](https://hub.docker.com/r/yawpitch/docker-ansible-fedora-26/)
+[![Docker Automated build](https://img.shields.io/docker/automated/yawpitch/docker-ansible-fedora-26.svg?maxAge=2592000)](https://hub.docker.com/r/yawpitch/docker-ansible-fedora-26/)
 
 Dockerized Fedora 26 for Ansible playbook and role tests.
 
