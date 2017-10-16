@@ -42,7 +42,7 @@ RUN pip install ansible
 RUN sed -i -e 's/^\(Defaults\s*requiretty\)/#--- \1/'  /etc/sudoers
 
 # Install Ansible inventory file.
-RUN mkdir -p /etc/ansible && echo "[local]\nlocalhost ansible_connection=local" > /etc/ansible/hosts
+COPY hosts /etc/ansible/hosts
 
 # Set cgroup volume
 VOLUME ["/sys/fs/cgroup", "/tmp", "/run"]
