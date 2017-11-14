@@ -18,6 +18,7 @@ RUN dnf makecache fast \
  && dnf -y install \
       redhat-rpm-config \
       make \
+      iputils \
       python-devel \
       python-pip \
       python-wheel \
