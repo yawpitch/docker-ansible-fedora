@@ -17,6 +17,7 @@ rm -f /lib/systemd/system/anaconda.target.wants/*;
 RUN dnf -y install \
       redhat-rpm-config \
       make \
+      iputils \
       python-devel \
       python-pip \
       python-wheel \
